@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+  <channel site="tvtv.us" site_id="92442" lang="en" xmltv_id="beINSports3.us">beIN SPORTS 3</channel>
+  <channel site="tvtv.us" site_id="92443" lang="en" xmltv_id="beINSports4.us">beIN SPORTS 4</channel>
+  <channel site="tvtv.us" site_id="92439" lang="en" xmltv_id="beINSports5.us">beIN SPORTS 5</channel>
+  <channel site="tvtv.us" site_id="92437" lang="en" xmltv_id="beINSports6.us">beIN SPORTS 6</channel>
+  <channel site="tvtv.us" site_id="92438" lang="en" xmltv_id="beINSports7.us">beIN SPORTS 7</channel>
+  <channel site="tvtv.us" site_id="92436" lang="en" xmltv_id="beINSports8.us">beIN SPORTS 8</channel>
+  <channel site="tvtv.us" site_id="113143" lang="en" xmltv_id="beINSportsXtra.us">beIN Sports Xtra USA</channel>
+  <channel site="tv.blue.ch" site_id="131" lang="de" xmltv_id="DisneyJunior.de">Disney Junior D</channel>
+  <channel site="tv.blue.ch" site_id="143" lang="de" xmltv_id="EEntertainment.de">E! Entertainment Deutschland</channel>
+  <channel site="tv.blue.ch" site_id="1794" lang="de" xmltv_id="SkyComedy.de">Sky Comedy</channel>
+  <channel site="sky.com" site_id="DE#2017" lang="de" xmltv_id="SerienPlus.de">SERIEN+ HD</channel>
+</channels>

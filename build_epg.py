@@ -21,6 +21,7 @@ QUELLEN = [
     "http://www.xmltvepg.nl/rytecDE_Basic.xz",
     "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
     "https://www.open-epg.com/files/unitedkingdom1.xml.gz",
+    "iptvorg.xml",  # lokal im Bau erzeugt aus iptvorg.channels.xml
 ]
 
 
@@ -40,11 +41,13 @@ def main():
 
     kanaele, programme, gefunden = {}, [], set()
     for url in QUELLEN:
-        pfad = "quelle.tmp"
+        lokal = not url.startswith("http")
+        pfad = url if lokal else "quelle.tmp"
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=300) as r, open(pfad, "wb") as out:
-                out.write(r.read())
+            if not lokal:
+                req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                with urllib.request.urlopen(req, timeout=300) as r, open(pfad, "wb") as out:
+                    out.write(r.read())
             with oeffnen(pfad) as f:
                 for _, el in ET.iterparse(f, events=("end",)):
                     if el.tag == "channel":
@@ -62,7 +65,7 @@ def main():
         except Exception as e:  # eine kaputte Quelle soll den Rest nicht verhindern
             print(f"FEHLER {url}: {e}")
         finally:
-            if os.path.exists(pfad):
+            if not lokal and os.path.exists(pfad):
                 os.remove(pfad)
 
     fehlen = sorted(gesucht - gefunden)
