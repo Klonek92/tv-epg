@@ -36,9 +36,7 @@ DELUXE.MUSIC.de
 DF1.de
 Discovery.HD.de
 Disney.Channel.de
-DisneyJunior.de
 DMAX.de
-EEntertainment.de
 ESPN.HD.us2
 ESPN2.HD.us2
 eSports1.de
@@ -172,7 +170,6 @@ Sky.Sport.Top.Event.de
 Sky.Sport.UHD.de
 Sky.Sports.Football.HD.uk
 Sky.Sports.NFL.uk
-SkyComedy.de
 SkySpCricket.uk
 SkySpF1.uk
 SkySpNews.uk
