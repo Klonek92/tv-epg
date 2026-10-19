@@ -11,6 +11,8 @@ ATV.at
 ATV2.at
 Auto.Motor.Sport.de
 AXN.Black.de
+BBC.One.Lon.HD.uk
+BBC.Two.HD.uk
 beIN.Sports.HD.(Canada).ca2
 beIN.Sports.USA.HD.us2
 beIN_SPORTS1_ENGLISH_Digital_Mono_EN.bein
@@ -56,6 +58,8 @@ HGTV.de
 History.ch
 Höhenrausch.ch
 HR.de
+ITV1.HD.uk
+ITV4.HD.uk
 Jukebox.de
 Just.Cooking.ch
 Just.fishing.ch
