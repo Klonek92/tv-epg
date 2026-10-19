@@ -15,6 +15,13 @@ beIN.Sports.HD.(Canada).ca2
 beIN.Sports.USA.HD.us2
 beIN_SPORTS1_ENGLISH_Digital_Mono_EN.bein
 beIN_SPORTS2_ENGLISH_Digital_Mono_EN.bein
+beINSports3.us
+beINSports4.us
+beINSports5.us
+beINSports6.us
+beINSports7.us
+beINSports8.us
+beINSportsXtra.us
 Bergblick.de
 BR.de
 Cartoon.Network.de
@@ -29,7 +36,9 @@ DELUXE.MUSIC.de
 DF1.de
 Discovery.HD.de
 Disney.Channel.de
+DisneyJunior.de
 DMAX.de
+EEntertainment.de
 ESPN.HD.us2
 ESPN2.HD.us2
 eSports1.de
@@ -113,6 +122,7 @@ RTLZWEI.de
 SAT.1.de
 SAT.1.emotions.de
 SAT.1.Gold.de
+SerienPlus.de
 SERVUS.TV.at
 sixx.de
 Sky Sports + HD.uk
@@ -162,6 +172,7 @@ Sky.Sport.Top.Event.de
 Sky.Sport.UHD.de
 Sky.Sports.Football.HD.uk
 Sky.Sports.NFL.uk
+SkyComedy.de
 SkySpCricket.uk
 SkySpF1.uk
 SkySpNews.uk
