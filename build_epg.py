@@ -16,6 +16,7 @@ QUELLEN = [
     "https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_US2.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_US_LOCALS1.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_CA2.xml.gz",
     "https://epgshare01.online/epgshare01/epg_ripper_BEIN1.xml.gz",
     "http://www.xmltvepg.nl/rytecDE_Basic.xz",
