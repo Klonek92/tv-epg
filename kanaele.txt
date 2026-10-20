@@ -3,8 +3,6 @@
 3sat.de
 4+.ch
 5+.ch
-ABC.National.Feed.Pacific.us2
-ABC.National.Feed.us2
 ABC.News.Live.us2
 Animal.Planet.de
 ANIXE.de
@@ -33,7 +31,6 @@ BR.de
 Cartoon.Network.de
 CBS.News.National.Stream.us2
 CBS.Sports.Network.HD.us2
-CBS.Streaming.SD.East.feed.us2
 CNN.HD.us2
 Comedy.Central.de
 CRIME.+.INVESTIGATION.de
@@ -74,6 +71,7 @@ ITV4.HD.uk
 Jukebox.de
 Just.Cooking.ch
 Just.fishing.ch
+KABC-DT.us_locals1
 kabel.eins.classics.de
 kabel.eins.de
 kabel.eins.Doku.de
@@ -99,7 +97,6 @@ N24.DOKU.de
 Nat.Geo.HD.de
 NAT.GEO.WILD.de
 NBA.TV.HD.us2
-NBC.East.Stream.us2
 NDR.de
 NFL.Network.HD.us2
 NFL.RedZone.HD.us2
@@ -226,12 +223,16 @@ TSN.5.HD.ca2
 Universal.Channel.HD.de
 VOX.de
 VOXup.de
+WABC-DT.us_locals1
 Warner.TV.Comedy.de
 Warner.TV.Film.de
 Warner.TV.Serie.de
+WCBS-DT.us_locals1
 WDR.de
 WELT.de
 Welt.der.Wunder.TV.de
+WNBC-DT.us_locals1
+WNYW-DT.us_locals1
 WWE.Network.us2
 Xplore.ch
 ZDF.de
