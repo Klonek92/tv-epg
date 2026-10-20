@@ -191,12 +191,10 @@ Sky.Sport.Bundesliga.7.de
 Sky.Sport.Bundesliga.8.de
 Sky.Sport.Bundesliga.9.de
 Sky.Sport.Bundesliga.de
-Sky.Sport.Bundesliga.UHD.de
 Sky.Sport.F1.de
 Sky.Sport.News.de
 Sky.Sport.Premier.League.de
 Sky.Sport.Top.Event.de
-Sky.Sport.UHD.de
 Sky.Sports.Football.HD.uk
 Sky.Sports.NFL.uk
 Sky.Witness.HD.uk
