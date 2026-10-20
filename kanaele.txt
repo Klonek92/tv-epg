@@ -3,6 +3,8 @@
 3sat.de
 4+.ch
 5+.ch
+ABC.National.Feed.Pacific.us2
+ABC.National.Feed.us2
 Animal.Planet.de
 ANIXE.de
 ARD.alpha.de
@@ -28,9 +30,11 @@ Bergblick.de
 BR.de
 Cartoon.Network.de
 CBS.Sports.Network.HD.us2
+CBS.Streaming.SD.East.feed.us2
 Comedy.Central.de
 CRIME.+.INVESTIGATION.de
 Curiosity.Channel.de
+CW.us2
 Das.Erste.de
 DAZN.1.de
 DAZN.2.de
@@ -49,10 +53,12 @@ EXTREME.SPORTS.de
 Fox.Soccer.Plus.HD.us2
 Fox.Sports.Racing.ca2
 Fox.Sports.Racing.HD.ca2
+Freeform.HD.us2
 FS1.HD.us2
 FS2.HD.us2
 GEO.Television.de
 Golf.Channel.HD.us2
+HBO.East.us2
 Heimatkanal.de
 HGTV.de
 History.ch
@@ -70,6 +76,7 @@ KIKA.de
 KinoweltTV.de
 KURIER.TV.at
 LFCTV.HD.uk
+Lifetime.HD.us2
 MDR.de
 Motorvision.TV.de
 MTV.de
@@ -87,6 +94,7 @@ N24.DOKU.de
 Nat.Geo.HD.de
 NAT.GEO.WILD.de
 NBA.TV.HD.us2
+NBC.East.Stream.us2
 NDR.de
 NFL.Network.HD.us2
 NFL.RedZone.HD.us2
@@ -199,6 +207,7 @@ tagesschau24.de
 Tele.5.de
 Tennis.Channel.HD.us2
 TLC.de
+TNT.HD.us2
 TNT.Sports.1.HD.uk
 TNT.Sports.2.HD.uk
 TNT.Sports.3.HD.uk
