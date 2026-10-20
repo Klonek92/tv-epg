@@ -5,6 +5,7 @@
 5+.ch
 ABC.National.Feed.Pacific.us2
 ABC.National.Feed.us2
+ABC.News.Live.us2
 Animal.Planet.de
 ANIXE.de
 ARD.alpha.de
@@ -27,10 +28,13 @@ beINSports7.us
 beINSports8.us
 beINSportsXtra.us
 Bergblick.de
+Bloomberg.HD.us2
 BR.de
 Cartoon.Network.de
+CBS.News.National.Stream.us2
 CBS.Sports.Network.HD.us2
 CBS.Streaming.SD.East.feed.us2
+CNN.HD.us2
 Comedy.Central.de
 CRIME.+.INVESTIGATION.de
 Curiosity.Channel.de
@@ -50,6 +54,7 @@ EURONEWS.at
 Eurosport.1.de
 Eurosport.2.de
 EXTREME.SPORTS.de
+Fox.News.Channel.HD.us2
 Fox.Soccer.Plus.HD.us2
 Fox.Sports.Racing.ca2
 Fox.Sports.Racing.HD.ca2
