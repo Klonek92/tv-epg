@@ -12,6 +12,7 @@ ATV.at
 ATV2.at
 Auto.Motor.Sport.de
 AXN.Black.de
+BBC.NEWS.HD.uk
 BBC.One.Lon.HD.uk
 BBC.Two.HD.uk
 beIN.Sports.HD.(Canada).ca2
@@ -29,8 +30,11 @@ Bergblick.de
 Bloomberg.HD.us2
 BR.de
 Cartoon.Network.de
+CBeebies.HD.uk
 CBS.News.National.Stream.us2
 CBS.Sports.Network.HD.us2
+Channel.4.HD.uk
+Channel.5.HD.uk
 CNN.HD.us2
 Comedy.Central.de
 CRIME.+.INVESTIGATION.de
@@ -44,6 +48,7 @@ DF1.de
 Discovery.HD.de
 Disney.Channel.de
 DMAX.de
+E4.HD.uk
 ESPN.HD.us2
 ESPN2.HD.us2
 eSports1.de
@@ -51,6 +56,7 @@ EURONEWS.at
 Eurosport.1.de
 Eurosport.2.de
 EXTREME.SPORTS.de
+Film4.HD.uk
 Fox.News.Channel.HD.us2
 Fox.Soccer.Plus.HD.us2
 Fox.Sports.Racing.ca2
@@ -58,6 +64,7 @@ Fox.Sports.Racing.HD.ca2
 Freeform.HD.us2
 FS1.HD.us2
 FS2.HD.us2
+GB.News.HD.uk
 GEO.Television.de
 Golf.Channel.HD.us2
 HBO.East.us2
@@ -67,6 +74,8 @@ History.ch
 Höhenrausch.ch
 HR.de
 ITV1.HD.uk
+ITV2.HD.uk
+ITV3.HD.uk
 ITV4.HD.uk
 Jukebox.de
 Just.Cooking.ch
@@ -120,6 +129,7 @@ ProSieben.MAXX.de
 PULS.24.at
 PULS.4.at
 PULS.acht.de
+QUEST.HD.uk
 QVC.de
 Racing.TV.HD.uk
 RadioBremen.de
@@ -143,13 +153,18 @@ Sky Sports Main Event HD.uk
 Sky Sports Mix HD.uk
 Sky Sports Premier League HD.uk
 Sky.Atlantic.HD.de
+Sky.Atlantic.HD.uk
 Sky.Cinema.Action.HD.de
 Sky.Cinema.Classics.HD.de
 Sky.Cinema.Family.HD.de
 Sky.Cinema.Highlights.HD.de
 Sky.Cinema.Premiere.HD.de
 Sky.Crime.de
+Sky.Crime.HD.uk
+Sky.Documentaries.HD.uk
+Sky.HistoryHD.uk
 Sky.Krimi.de
+Sky.News.HD.uk
 Sky.One.de
 Sky.Replay.HD.de
 Sky.Sport.1.de
@@ -184,6 +199,12 @@ Sky.Sport.Top.Event.de
 Sky.Sport.UHD.de
 Sky.Sports.Football.HD.uk
 Sky.Sports.NFL.uk
+Sky.Witness.HD.uk
+SkyCinemaAction.uk
+SkyCinemaComedy.uk
+SkyCinemaDrama.uk
+SkyCinemaPremiere.uk
+SkyCinemaThriller.uk
 SkySpCricket.uk
 SkySpF1.uk
 SkySpNews.uk
@@ -220,6 +241,9 @@ TSN.2.ca2
 TSN.3.ca2
 TSN.4.ca2
 TSN.5.HD.ca2
+U&Dave HD.uk
+U&Drama HD.uk
+U&GOLD HD.uk
 Universal.Channel.HD.de
 VOX.de
 VOXup.de
