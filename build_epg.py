@@ -67,8 +67,18 @@ def oeffnen(pfad):
     return open(pfad, "rb")
 
 
+BERICHT = []
+
+
+def melden(text):
+    """Ausgabe ins Log und in public/status.txt (im Browser lesbar)."""
+    print(text)
+    BERICHT.append(text)
+
+
 def main():
     jetzt = datetime.now(timezone.utc)
+    melden("Stand: " + jetzt.strftime("%d.%m.%Y %H:%M UTC"))
     with open("kanaele.txt", encoding="utf-8") as f:
         gesucht = {z.strip() for z in f if z.strip()}
 
@@ -109,13 +119,13 @@ def main():
                                 je_kanal[cid][url] = (liste, bis)
                         el.clear()
             bis_text = ende_max.strftime("%d.%m. %H:%M UTC") if ende_max else "-"
-            print(f"ok     {url}: {treffer} Sendungen, davon {aktuell} aktuell, Programm bis {bis_text}")
+            melden(f"ok     {url}: {treffer} Sendungen, davon {aktuell} aktuell, Programm bis {bis_text}")
             if treffer and (ende_max is None or ende_max < jetzt + MINDEST_VORLAUF):
                 warnungen.append(f"Quelle veraltet (Programm nur bis {bis_text}): {url}")
             if lokal and treffer == 0:
                 warnungen.append(f"Quelle leer: {url}")
         except Exception as e:  # eine kaputte Quelle soll den Rest nicht verhindern
-            print(f"FEHLER {url}: {e}")
+            melden(f"FEHLER {url}: {e}")
             warnungen.append(f"Quelle nicht lesbar: {url} ({e})")
         finally:
             if not lokal and os.path.exists(pfad):
@@ -132,9 +142,15 @@ def main():
 
     gefunden = set(je_kanal)
     fehlen = sorted(gesucht - gefunden)
-    print(f"{len(gefunden)} von {len(gesucht)} Kanaelen mit aktuellem Programm, {len(programme)} Sendungen")
+    melden(f"{len(gefunden)} von {len(gesucht)} Kanaelen mit aktuellem Programm, {len(programme)} Sendungen")
+    for land in sorted({k.rsplit(".", 1)[-1] for k in gesucht}):
+        alle = [k for k in gesucht if k.rsplit(".", 1)[-1] == land]
+        mit = [k for k in alle if k in gefunden]
+        melden(f"  .{land}: {len(mit)} von {len(alle)}")
     if fehlen:
-        print("ohne Programm: " + ", ".join(fehlen))
+        melden("ohne Programm: " + ", ".join(fehlen))
+    for w in warnungen:
+        melden("WARNUNG " + w)
 
     if warnungen:
         with open(WARNDATEI, "w", encoding="utf-8") as f:
@@ -148,6 +164,8 @@ def main():
         sys.exit("Zu wenige Kanaele gefunden, alte Datei bleibt.")
 
     os.makedirs("public", exist_ok=True)
+    with open("public/status.txt", "w", encoding="utf-8") as f:
+        f.write("\n".join(BERICHT) + "\n")
     with gzip.open("public/epg.xml.gz", "wt", encoding="utf-8") as out:
         out.write('<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="Jan EPG">\n')
         for k in kanaele.values():
