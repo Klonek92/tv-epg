@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <channels>
+  <!-- beIN USA (beinsports.com) -->
   <channel site="beinsports.com" site_id="90E69FC7-AA8C-40F2-B35F-EBD174495F76" lang="en" xmltv_id="beINSports3.us">beIN SPORTS 3</channel>
   <channel site="beinsports.com" site_id="D0546ED7-9DB2-4924-9E32-C4F077E7BFC7" lang="en" xmltv_id="beINSports4.us">beIN SPORTS 4</channel>
   <channel site="beinsports.com" site_id="A5A48DB1-C00B-4DB9-9FC6-5E5F25C18830" lang="en" xmltv_id="beINSports5.us">beIN SPORTS 5</channel>
@@ -7,5 +8,102 @@
   <channel site="beinsports.com" site_id="831591C8-DA65-4528-B837-0E5A147887FB" lang="en" xmltv_id="beINSports7.us">beIN SPORTS 7</channel>
   <channel site="beinsports.com" site_id="9A424246-EC89-43C3-9239-AA3A40540F94" lang="en" xmltv_id="beINSports8.us">beIN SPORTS 8</channel>
   <channel site="beinsports.com" site_id="1ACADCF1-DFAC-480B-872C-53D51FE1B45D" lang="en" xmltv_id="beINSportsXtra.us">beIN SPORTS XTRA</channel>
+
+  <!-- Deutschland (sky.com) -->
   <channel site="sky.com" site_id="DE#2017" lang="de" xmltv_id="SerienPlus.de">SERIEN+ HD</channel>
+
+  <!-- UK, Ersatz fuer epgshare01 UK1 (sky.com) -->
+  <channel site="sky.com" site_id="GB#2085" lang="en" xmltv_id="BBC.NEWS.HD.uk">BBC NEWS HD</channel>
+  <channel site="sky.com" site_id="GB#3000" lang="en" xmltv_id="BBC.One.Lon.HD.uk">BBC One Lon HD</channel>
+  <channel site="sky.com" site_id="GB#2075" lang="en" xmltv_id="BBC.Two.HD.uk">BBC Two HD</channel>
+  <channel site="sky.com" site_id="GB#2088" lang="en" xmltv_id="CBeebies.HD.uk">CBeebies HD</channel>
+  <channel site="sky.com" site_id="GB#1202" lang="en" xmltv_id="Channel.4.HD.uk">Channel 4 HD</channel>
+  <channel site="sky.com" site_id="GB#4058" lang="en" xmltv_id="Channel.5.HD.uk">5 HD</channel>
+  <channel site="sky.com" site_id="GB#4076" lang="en" xmltv_id="E4.HD.uk">E4 HD</channel>
+  <channel site="sky.com" site_id="GB#4044" lang="en" xmltv_id="Film4.HD.uk">Film4 HD</channel>
+  <channel site="sky.com" site_id="GB#1196" lang="en" xmltv_id="GB.News.HD.uk">GB News HD</channel>
+  <channel site="sky.com" site_id="GB#1043" lang="en" xmltv_id="ITV1.HD.uk">ITV1 HD</channel>
+  <channel site="sky.com" site_id="GB#6532" lang="en" xmltv_id="ITV2.HD.uk">ITV2 HD</channel>
+  <channel site="sky.com" site_id="GB#6533" lang="en" xmltv_id="ITV3.HD.uk">ITV3 HD</channel>
+  <channel site="sky.com" site_id="GB#6534" lang="en" xmltv_id="ITV4.HD.uk">ITV4 HD</channel>
+  <channel site="sky.com" site_id="GB#3845" lang="en" xmltv_id="LFCTV.HD.uk">LFCTV HD</channel>
+  <channel site="sky.com" site_id="GB#1003" lang="en" xmltv_id="MUTV.HD.uk">MUTV HD</channel>
+  <channel site="sky.com" site_id="GB#1128" lang="en" xmltv_id="QUEST.HD.uk">QUEST HD</channel>
+  <channel site="sky.com" site_id="GB#5272" lang="en" xmltv_id="Racing.TV.HD.uk">Racing TV HD</channel>
+  <channel site="sky.com" site_id="GB#3858" lang="en" xmltv_id="Sky Sports + HD.uk">SkySp+ HD</channel>
+  <channel site="sky.com" site_id="GB#1094" lang="en" xmltv_id="Sky Sports Golf HD.uk">SkySp Golf HD</channel>
+  <channel site="sky.com" site_id="GB#1701" lang="en" xmltv_id="Sky Sports Main Event HD.uk">SkySpMainEvHD</channel>
+  <channel site="sky.com" site_id="GB#4090" lang="en" xmltv_id="Sky Sports Mix HD.uk">SkySp Mix HD</channel>
+  <channel site="sky.com" site_id="GB#1096" lang="en" xmltv_id="Sky Sports Premier League HD.uk">SkySp PL HD</channel>
+  <channel site="sky.com" site_id="GB#3843" lang="en" xmltv_id="Sky.Sports.Football.HD.uk">SkySp F'ball HD</channel>
+  <channel site="sky.com" site_id="GB#1703" lang="en" xmltv_id="Sky.Sports.NFL.uk">SkySp ActionHD</channel>
+  <channel site="sky.com" site_id="GB#1702" lang="en" xmltv_id="SkySpCricket.uk">SkySpCricket HD</channel>
+  <channel site="sky.com" site_id="GB#3835" lang="en" xmltv_id="SkySpF1.uk">SkySp F1 HD</channel>
+  <channel site="sky.com" site_id="GB#1340" lang="en" xmltv_id="SkySpNews.uk">SkySp News HD</channel>
+  <channel site="sky.com" site_id="GB#4053" lang="en" xmltv_id="Sky.Atlantic.HD.uk">Sky Atlantic HD</channel>
+  <channel site="sky.com" site_id="GB#1212" lang="en" xmltv_id="Sky.Crime.HD.uk">Sky Crime HD</channel>
+  <channel site="sky.com" site_id="GB#1136" lang="en" xmltv_id="Sky.Documentaries.HD.uk">SkyDocmntrsHD</channel>
+  <channel site="sky.com" site_id="GB#4086" lang="en" xmltv_id="Sky.HistoryHD.uk">Sky HistoryHD</channel>
+  <channel site="sky.com" site_id="GB#4050" lang="en" xmltv_id="Sky.News.HD.uk">Sky News HD</channel>
+  <channel site="sky.com" site_id="GB#4066" lang="en" xmltv_id="Sky.Witness.HD.uk">Sky Witness HD</channel>
+  <channel site="sky.com" site_id="GB#4014" lang="en" xmltv_id="SkyCinemaAction.uk">Sky Action HD</channel>
+  <channel site="sky.com" site_id="GB#4019" lang="en" xmltv_id="SkyCinemaComedy.uk">Sky Comedy HD</channel>
+  <channel site="sky.com" site_id="GB#4016" lang="en" xmltv_id="SkyCinemaDrama.uk">Sky Drama HD</channel>
+  <channel site="sky.com" site_id="GB#4021" lang="en" xmltv_id="SkyCinemaPremiere.uk">SkyPremiereHD</channel>
+  <channel site="sky.com" site_id="GB#4062" lang="en" xmltv_id="SkyCinemaThriller.uk">Sky Thriller HD</channel>
+  <channel site="sky.com" site_id="GB#1120" lang="en" xmltv_id="TNT.Sports.1.HD.uk">TNTSports1 HD</channel>
+  <channel site="sky.com" site_id="GB#3627" lang="en" xmltv_id="TNT.Sports.2.HD.uk">TNTSports2 HD</channel>
+  <channel site="sky.com" site_id="GB#3629" lang="en" xmltv_id="TNT.Sports.3.HD.uk">TNTSports3 HD</channel>
+  <channel site="sky.com" site_id="GB#4040" lang="en" xmltv_id="TNT.Sports.4.HD.uk">TNTSports4 HD</channel>
+  <channel site="sky.com" site_id="GB#3809" lang="en" xmltv_id="U&amp;Dave HD.uk">U&amp;Dave HD</channel>
+  <channel site="sky.com" site_id="GB#2612" lang="en" xmltv_id="U&amp;Drama HD.uk">U&amp;Drama</channel>
+  <channel site="sky.com" site_id="GB#6513" lang="en" xmltv_id="U&amp;GOLD HD.uk">U&amp;Gold HD</channel>
+
+  <!-- UK, nicht bei sky.com (tv24.co.uk) -->
+  <channel site="tv24.co.uk" site_id="premier-sports-tv-hd" lang="en" xmltv_id="Premier.Sports.1.HD.uk">Premier Sports 1 HD</channel>
+  <channel site="tv24.co.uk" site_id="premier-sports-2-hd" lang="en" xmltv_id="Premier.Sports.2.HD.uk">Premier Sports 2 HD</channel>
+
+  <!-- USA, Ersatz fuer epgshare01 US2 und US_LOCALS1 (tvpassport.com) -->
+  <channel site="tvpassport.com" site_id="abc-news-live/36224" lang="en" xmltv_id="ABC.News.Live.us2">ABC News Live</channel>
+  <channel site="tvpassport.com" site_id="bein-sport-usa-hd/10854" lang="en" xmltv_id="beIN.Sports.USA.HD.us2">beIN Sport USA HD</channel>
+  <channel site="tvpassport.com" site_id="bloomberg-tv-usa/1856" lang="en" xmltv_id="Bloomberg.HD.us2">Bloomberg TV USA</channel>
+  <channel site="tvpassport.com" site_id="cbs-sports-network-usa-hd/6985" lang="en" xmltv_id="CBS.Sports.Network.HD.us2">CBS Sports Network USA HD</channel>
+  <channel site="tvpassport.com" site_id="cnn/70" lang="en" xmltv_id="CNN.HD.us2">CNN</channel>
+  <channel site="tvpassport.com" site_id="cw--network-eastern/1231" lang="en" xmltv_id="CW.us2">CW - Network Eastern</channel>
+  <channel site="tvpassport.com" site_id="espn-hd/3036" lang="en" xmltv_id="ESPN.HD.us2">ESPN HD</channel>
+  <channel site="tvpassport.com" site_id="espn2-hd/3379" lang="en" xmltv_id="ESPN2.HD.us2">ESPN2 HD</channel>
+  <channel site="tvpassport.com" site_id="fox-news-hd/6207" lang="en" xmltv_id="Fox.News.Channel.HD.us2">Fox News HD</channel>
+  <channel site="tvpassport.com" site_id="fox-soccer-plus-hd/11551" lang="en" xmltv_id="Fox.Soccer.Plus.HD.us2">FOX Soccer Plus HD</channel>
+  <channel site="tvpassport.com" site_id="freeform-hd--east-feed/6110" lang="en" xmltv_id="Freeform.HD.us2">Freeform HD - East Feed</channel>
+  <channel site="tvpassport.com" site_id="fox-sports-1-hd/11137" lang="en" xmltv_id="FS1.HD.us2">Fox Sports 1 HD</channel>
+  <channel site="tvpassport.com" site_id="golf-channel-usa-hd/6039" lang="en" xmltv_id="Golf.Channel.HD.us2">Golf Channel USA HD</channel>
+  <channel site="tvpassport.com" site_id="hbo-hd--eastern-feed/627" lang="en" xmltv_id="HBO.East.us2">HBO HD - Eastern Feed</channel>
+  <channel site="tvpassport.com" site_id="lifetime-network-us--eastern-feed-hd/6333" lang="en" xmltv_id="Lifetime.HD.us2">Lifetime Network US - Eastern Feed HD</channel>
+  <channel site="tvpassport.com" site_id="nba-tv-usa-hd/5645" lang="en" xmltv_id="NBA.TV.HD.us2">NBA TV USA HD</channel>
+  <channel site="tvpassport.com" site_id="nfl-network/3349" lang="en" xmltv_id="NFL.Network.HD.us2">NFL Network</channel>
+  <channel site="tvpassport.com" site_id="nfl-redzone-hd/7536" lang="en" xmltv_id="NFL.RedZone.HD.us2">NFL RedZone HD</channel>
+  <channel site="tvpassport.com" site_id="nhl-network-usa/14156" lang="en" xmltv_id="NHL.Network.HD.us2">NHL Network USA</channel>
+  <channel site="tvpassport.com" site_id="the-tennis-channel-hd/7051" lang="en" xmltv_id="Tennis.Channel.HD.us2">The Tennis Channel HD</channel>
+  <channel site="tvpassport.com" site_id="tnt--eastern-feed/347" lang="en" xmltv_id="TNT.HD.us2">TNT - Eastern Feed</channel>
+  <channel site="tvpassport.com" site_id="abc-kabc-los-angeles-ca-hd/4552" lang="en" xmltv_id="KABC-DT.us_locals1">ABC (KABC) Los Angeles, CA HD</channel>
+  <channel site="tvpassport.com" site_id="abc-wabc-new-york-ny-hd/4553" lang="en" xmltv_id="WABC-DT.us_locals1">ABC (WABC) New York, NY HD</channel>
+  <channel site="tvpassport.com" site_id="cbs-wcbs-new-york-ny-hd/4555" lang="en" xmltv_id="WCBS-DT.us_locals1">CBS (WCBS) New York, NY HD</channel>
+  <channel site="tvpassport.com" site_id="nbc-wnbc-new-york-ny-hd/4559" lang="en" xmltv_id="WNBC-DT.us_locals1">NBC (WNBC) New York, NY HD</channel>
+  <channel site="tvpassport.com" site_id="fox-wnyw-new-york-ny-hd/4557" lang="en" xmltv_id="WNYW-DT.us_locals1">FOX (WNYW) New York, NY HD</channel>
+
+  <!-- Kanada, Ersatz fuer epgshare01 CA2 (tvpassport.com) -->
+  <channel site="tvpassport.com" site_id="bein-sport-canada/13246" lang="en" xmltv_id="beIN.Sports.HD.(Canada).ca2">beIN Sport Canada</channel>
+  <channel site="tvpassport.com" site_id="fox-sports-racing/192" lang="en" xmltv_id="Fox.Sports.Racing.ca2">Fox Sports Racing</channel>
+  <channel site="tvpassport.com" site_id="fox-sports-racing-hd/5488" lang="en" xmltv_id="Fox.Sports.Racing.HD.ca2">Fox Sports Racing HD</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-pacific-hd/6042" lang="en" xmltv_id="Sportsnet.(Pacific).HD.ca2">Sportsnet (Pacific) HD</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-360/336" lang="en" xmltv_id="Sportsnet.360.HD.ca2">Sportsnet 360</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-east-hd/6043" lang="en" xmltv_id="Sportsnet.East.HD.ca2">Sportsnet (East) HD</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-one/8249" lang="en" xmltv_id="Sportsnet.One.ca2">Sportsnet One</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-ontario/254" lang="en" xmltv_id="Sportsnet.Ontario.HD.ca2">Sportsnet (Ontario)</channel>
+  <channel site="tvpassport.com" site_id="sportsnet-west-hd/6041" lang="en" xmltv_id="Sportsnet.West.HD.ca2">Sportsnet (West) HD</channel>
+  <channel site="tvpassport.com" site_id="tsn1/11" lang="en" xmltv_id="TSN.1.ca2">TSN1</channel>
+  <channel site="tvpassport.com" site_id="tsn2/4294" lang="en" xmltv_id="TSN.2.ca2">TSN2</channel>
+  <channel site="tvpassport.com" site_id="tsn3/13719" lang="en" xmltv_id="TSN.3.ca2">TSN3</channel>
+  <channel site="tvpassport.com" site_id="tsn4/279" lang="en" xmltv_id="TSN.4.ca2">TSN4</channel>
+  <channel site="tvpassport.com" site_id="tsn5/278" lang="en" xmltv_id="TSN.5.HD.ca2">TSN5</channel>
 </channels>

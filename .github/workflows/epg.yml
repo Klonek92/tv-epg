@@ -31,6 +31,7 @@ jobs:
           node-version: "22"
       - name: Zusaetzliche Sender von Webseiten holen (iptv-org/epg)
         continue-on-error: true
+        timeout-minutes: 30
         run: |
           git clone --depth 1 https://github.com/iptv-org/epg.git iptv-org
           cd iptv-org
@@ -41,3 +42,14 @@ jobs:
         with:
           path: public
       - uses: actions/deploy-pages@v4
+      # Erst nach dem Veroeffentlichen: Lauf rot markieren, wenn eine Quelle
+      # veraltet oder kaputt ist. Die Datei ist dann trotzdem aktualisiert,
+      # GitHub schickt aber eine Mail.
+      - name: Quellen pruefen
+        run: |
+          if [ -s warnungen.txt ]; then
+            echo "Probleme mit EPG-Quellen:"
+            cat warnungen.txt
+            exit 1
+          fi
+          echo "Alle Quellen aktuell."
