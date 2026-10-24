@@ -29,7 +29,6 @@ QUELLEN = [
     "https://epgshare01.online/epgshare01/epg_ripper_BEIN1.xml.gz",
     "http://www.xmltvepg.nl/rytecDE_Basic.xz",
     "http://www.xmltvepg.nl/rytecUK_SportMovies.xz",
-    "https://www.open-epg.com/files/unitedkingdom1.xml.gz",
     "iptvorg.xml",  # lokal im Bau erzeugt aus iptvorg.channels.xml (US/UK/CA-Ersatz)
 ]
 
