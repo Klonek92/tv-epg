@@ -38,6 +38,8 @@ jobs:
           npm ci --no-audit --no-fund
           npm run grab --- --channels=../iptvorg.channels.xml --output=../iptvorg.xml --days=3 --maxConnections=3
       - run: python build_epg.py
+      - name: Logos mit veroeffentlichen
+        run: cp -r logos public/logos
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
